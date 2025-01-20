@@ -6,7 +6,7 @@ A License Plate Reader that consists of a YOLOv10 model for detecting the licens
 ## Preparation
 After downloading the checkpoints:
 ```bash
-git clone git@github.com:namnguyen2103/Vietnamese-License-Plate-Reader.git
+git clone https://github.com/namnguyen2103/Vietnamese-License-Plate-Reader.git
 cd Vietnamese-License-Plate-Reader
 python app.py
 ```
