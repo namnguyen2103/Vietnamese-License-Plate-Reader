@@ -18,6 +18,13 @@ To make a prediction, you can use a tool like Postman or cURL to send a POST req
 curl -X POST -F "file=123.jpg" http://localhost:5000/predict
 ```
 
+## Evaluation
+TrOCR model: 82.59% accuracy (exact match accuracy)
+
+Example output:
+<img width="1266" height="1113" alt="image" src="https://github.com/user-attachments/assets/ab40cb2e-7abe-4aab-a47b-138c9e92bf36" />
+
+
 ## Future direction
 * Implement a proper user interface for better accessibility.
 * Adding additional features based on the available dataset (e.g., vehicle classification, regional identification, etc.)
