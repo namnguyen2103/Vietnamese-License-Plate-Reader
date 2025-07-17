@@ -19,9 +19,17 @@ curl -X POST -F "file=123.jpg" http://localhost:5000/predict
 ```
 
 ## Evaluation
-TrOCR model: 82.59% accuracy (exact match accuracy)
+### YOLOv10
+- **Precision**: 0.970  
+- **Recall**: 0.985  
+- **mAP@0.5**: 0.994  
 
-Example output:
+### TrOCR
+
+- **Exact Match Accuracy**: 82.59%  
+  (Percentage of predictions that exactly match the ground truth string)
+
+- **Example TrOCR Output:**
 <img width="1266" height="1113" alt="image" src="https://github.com/user-attachments/assets/ab40cb2e-7abe-4aab-a47b-138c9e92bf36" />
 
 
