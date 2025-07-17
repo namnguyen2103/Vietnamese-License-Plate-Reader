@@ -30,7 +30,8 @@ curl -X POST -F "file=123.jpg" http://localhost:5000/predict
   (Percentage of predictions that exactly match the ground truth string)
 
 - **Example TrOCR Output:**
-<img width="1266" height="1113" alt="image" src="https://github.com/user-attachments/assets/ab40cb2e-7abe-4aab-a47b-138c9e92bf36" />
+<img width="1238" height="1309" alt="image" src="https://github.com/user-attachments/assets/c631e6ed-3dd3-4a71-b868-803774aa52b9" />
+
 
 
 ## Future direction
